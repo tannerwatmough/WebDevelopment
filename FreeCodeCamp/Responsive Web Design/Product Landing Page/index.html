@@ -1,1 +1,67 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://www.littmann.com/3m_theme_assets/themes/3MTheme/assets/images/lion/littmann/logo1_desktop.png" />
+      <h1>Stethoscopes</h1>
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#howto" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+    <main>
+      <section id="features">
+        <h2>Features</h2>
+        <p>Stethoscopes can ausculate lung and heart sounds to an extreme degree of accuracy!</p>
+        <p>We have three state of the art, classic stethoscopes available for all ages! From infant to adult. </p>
+        <p>Check out our video below to see which 3M Littmann stethoscope is right for you and your needs.</p>
+      </section>
+      <section id="howto">
+        <h2>How It Works</h2>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fTUzGzJdAno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <section class="card-container">
+          <div class="card">
+            <h3>Littmann Classic Stethoscope for Infants</h3>
+            <h4>$250</h4>
+            <p>Use this for all of your neonatal and infant treatment needs</p>
+            <button>Select</button>
+          </div>
+          <div class="card">
+            <h3>Littmann Classic Stethoscope for Pediatrics</h3>
+            <h4>$300</h4>
+            <p>Use this for all of your pediatric and adolescent treatment needs</p>
+            <button>Select</button>
+          </div>
+          <div class="card">
+            <h3>Littmann Classic Stethoscope for Adults</h3>
+            <h4>$350</h4>
+            <p>Use this for all of your adult and geriatric treatment needs</p>
+            <button>Select</button>
+          </div>
+        </section>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <h3 id="contact">Contact us for pricing</h3>
+          <label for="email">Email: <input type="email" id="email" name="email" placeholder="johnsmith@email.com" /></label>
+          <input id="submit" type="submit" />
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <p>Copright 2022, Littmann Stethoscopes</p>
+    </footer>
+  </body>
+</html>
